@@ -16,7 +16,7 @@ client.on('ready', () => {
 client.on('messageCreate', (message) => {
     if (message.content === 'ping') {
         message.reply({
-            content: 'pong',
+            content: 'pong!',
         })
     }
 })
