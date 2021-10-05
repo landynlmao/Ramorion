@@ -17,6 +17,8 @@ The following versions will recieve patches for security fixes
 | 1.0.x   | :white_check_mark: |
 | 0.0.x   | :x:                |
 
+Anything released prior to 1.0.0 (in the off chance you get a copy) will be considered legacy and is no longer maintained or supported!
+
 ## Reporting a Vulnerability
 
 To Report security issues email me here: landynlol@icloud.com
