@@ -26,10 +26,18 @@ export default {
             .setStyle('DANGER')
         )
 
+        const linkRow = new MessageActionRow()
+            .addComponents(
+            new MessageButton()
+            .setURL('https://www.pornhub.com/')
+            .setLabel('PORN')
+            .setStyle('LINK')
+        )
+
         await msgInt.reply({
             content: 'Are you sure?',
-            components: [row]
+            components: [row, linkRow],
+            ephemeral: true,
         })
-    }
-} as ICommand 
-
+    },
+} as ICommand
