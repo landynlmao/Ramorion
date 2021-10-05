@@ -1,6 +1,6 @@
 # Ramorion Discord Bot 
 JavaScript / TypeScript bot i'm working on for fun. Use at your own risk. Constantly updated. May break when I deploy updates. Im learning :}
-***Im aiming to make this bot the first fully free bot with all the services that are usually behind a paywall with other servers!***
+***I'm aiming to make this bot the first fully free bot with all the services that are usually behind a paywall with other servers!***
 
 You will need an .env file with your OWN discord bots API token inside of that file in order to use it with this bot, you will need to get your bots API token from the discord developer portal under your created bot application! 'TOKEN=EXAMPLETOKEN000000' will work just fine, so long as you use an actual API token. I will not provide this specific bots token for obvious reasons.
 
