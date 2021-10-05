@@ -35,7 +35,7 @@ client.on('ready', function () {
     new wokcommands_1.default(client, {
         commandDir: path_1.default.join(__dirname, 'commands'),
         typeScript: true,
-        testServers: '894170702289186869',
+        testServers: ['894170702289186869'],
     });
 });
 client.login(process.env.TOKEN);
