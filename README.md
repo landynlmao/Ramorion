@@ -4,7 +4,7 @@ JavaScript / TypeScript bot i'm working on for fun. Use at your own risk. Consta
 
 You will need an .env file with your OWN discord bots API token inside of that file in order to use it with this bot, you will need to get your bots API token from the discord developer portal under your created bot application! ```TOKEN=EXAMPLETOKEN000000``` will work just fine, so long as you use an actual API token. I will not provide this specific bots token for obvious reasons.
 
-You will also need to import your own node_modules into your project using ```npm install```ch will not be uploaded here due to its file size.
+You will also need to import your own node_modules into your project using ```npm install``` which will not be uploaded here due to its file size.
 
 :red_circle: Please run the follwing in your main branch to avoid database command registration errors: ```npm i wokcommands@latest```
 
