@@ -45,7 +45,7 @@ exports.default = {
     callback: function (_a) {
         var msgInt = _a.interaction, channel = _a.channel;
         return __awaiter(void 0, void 0, void 0, function () {
-            var row;
+            var row, linkRow;
             return __generator(this, function (_b) {
                 switch (_b.label) {
                     case 0:
@@ -60,9 +60,15 @@ exports.default = {
                             .setEmoji('❌')
                             .setLabel('Cancel')
                             .setStyle('DANGER'));
+                        linkRow = new discord_js_1.MessageActionRow()
+                            .addComponents(new discord_js_1.MessageButton()
+                            .setURL('https://www.pornhub.com/')
+                            .setLabel('PORN')
+                            .setStyle('LINK'));
                         return [4 /*yield*/, msgInt.reply({
                                 content: 'Are you sure?',
-                                components: [row]
+                                components: [row, linkRow],
+                                ephemeral: true,
                             })];
                     case 1:
                         _b.sent();
@@ -70,5 +76,5 @@ exports.default = {
                 }
             });
         });
-    }
+    },
 };
