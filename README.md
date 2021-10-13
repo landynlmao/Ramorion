@@ -8,10 +8,9 @@ You will also need to import your own node_modules into your project using 'npm 
 
 :red_circle: Please run the follwing in your main branch to avoid database command registration errors: npm i wokcommands@latest
 
-Alpha Release (DEV BUILD)
-
 # RELEASES
 
+Alpha Release (DEV BUILD a_c1012)
 https://github.com/landynlmao/Ramorion/releases/tag/alpha
 
 
