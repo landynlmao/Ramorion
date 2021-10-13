@@ -6,6 +6,8 @@ You will need an .env file with your OWN discord bots API token inside of that f
 
 You will also need to import your own node_modules into your project using 'npm install' which will not be uploaded here due to its file size.
 
+Please run in main branch to avoid database command registration errors: npm i wokcommands@latest
+
 
 # Security Policy
 
