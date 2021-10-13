@@ -8,7 +8,13 @@ You will also need to import your own node_modules into your project using ```np
 
 # BUG FIXES
 
-:red_circle: Please run the follwing in your main branch to avoid database command registration errors: ```npm i wokcommands@latest```
+:green_circle: Please run the follwing in your main branch to avoid database command registration errors: ```npm i wokcommands@latest```
+
+# In Progress
+
+🔴Test (buttons commands) not working #2
+
+🔴Known Bot Hosting issue #1
 
 # RELEASES
 
